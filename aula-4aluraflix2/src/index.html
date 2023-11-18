@@ -1,0 +1,39 @@
+<html>
+
+<head>
+  <title>
+    Imersão Dev
+  </title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      Aluraflix
+    </h1>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+  </div>
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  </a>
+  <div class = "form">
+    <p class="page-subtitle">
+      Qual seu filme favorito?
+    </p>
+    <div class="field">
+      <label>Nome: </label>
+      <input id="movieName" name="MovieName" placeholder="Insira o nome do filme" type="text">
+    </div>
+    <div class="field">
+      <label>Poster:</label>
+      <input id="posterUrl" name="PosterUrl" placeholder="Insira a URL da imagem" type="url">
+    </div>
+    <div class="field">
+      <label>Trailer:</label>
+      <input id="trailerUrl" name="TrailerUrl" placeholder="Insira a URL do trailer" type="url">
+    </div>
+    <button onClick="addMovie()">Adicionar Filme</button>
+  </div>
+<div id="catalogContainer" class = "catalogContainer"/>
+</body>
+</html>

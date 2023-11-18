@@ -1,0 +1,158 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/*FORM DE CADASTRO DE FILMES*/
+.form {
+  align-items: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 10px 0;
+  padding: 10px 0 30px 0;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0 0 20px;
+}
+
+.field {
+  display: flex;
+  margin: 5px 0 5px 0;
+  width: 500px;
+}
+
+.form label {
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 15px;
+  text-align: right;
+  width: 120px;
+}
+
+.form input {
+  padding: 10px 15px;
+  width: 350px;
+}
+
+.form button {
+  border: 0;
+  color: #ffffff;
+  background: #da1e26;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form button:hover {
+  opacity: 0.8;
+}
+
+
+/*CATALOGO DE FILMES*/ 
+.catalogContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.movieContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  max-width: 30%;
+}
+
+.movieContainer img {
+  margin: 10px;
+  max-height: 250px;
+}
+
+.movieContainer img:hover{
+  transform: scale(1.2);
+}
+
+.nameContainer {
+  color: #fff;
+  height: 30px;
+  padding: 2px;
+  text-align: center;
+  width: 150px;
+  display:table-cell;
+    vertical-align:middle;
+}
+
+.buttonsContainer {
+  display:flex;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  padding; 0 10px;
+  width: 80%;
+}
+
+.trailerButton {
+  background: #67809f;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px 10px;
+  text-align: center;
+  transition: 0.3s;
+  width: 48%;
+}
+.trailerButton:hover {
+  opacity: 0.7;
+}
+
+.deleteButton {
+  background: #da1e26;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px 10px;
+  text-align: center;
+  transition: 0.3s;
+  width: 48%;
+}
+.deleteButton:hover {
+  opacity: 0.7;
+}
