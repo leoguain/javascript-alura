@@ -1,0 +1,49 @@
+<html>
+
+<head>
+  <title>
+    Imersão Dev
+  </title>
+</head>
+
+<body>
+  <h1>Campeonato Brasileiro 2023</h1>
+  <h3>Cada time tem 10 rodadas para pontuar</h3>
+  <table class="center">
+    <thead>
+      <tr>
+        <th colspan="3">Time</th>
+        <th>Pontos</th>
+        <th>Jogos</th>
+        <th>V</th>
+        <th>E</th>
+        <th>D</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody id="teamsTable" />
+  </table>
+  <div class="optionsContainer">
+    <h4>
+      Melhore o jogo, adicione mais times!<br>
+      A tabela pode ter até 10 times.
+    </h4>
+    <div class="formContainer">
+      <div>
+        <div class="field">
+          <label>Nome do time: </label>
+          <input id="teamName" name="teamName" placeholder="Insira o nome do time*" type="text">
+        </div>
+        <div class="field">
+          <label>Logo do time: </label>
+          <input id="teamLogo" name="teamLogo" placeholder="Insira a URL do logo do time" type="url">
+        </div>
+      </div>
+      <button onClick="addTeam()">Adicionar Time</button>
+    </div>
+
+  </div>
+  <button class="eraseButton" onClick="eraseData()">Recomeçar campeonato</button>
+</body>
+
+</html>
