@@ -1,0 +1,106 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center ;
+  background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background-aluraflix.png");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.form {
+  align-items: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 10px 0;
+  padding: 10px 0 30px 0;
+}
+
+h2 {
+  text-align: center  
+}
+
+.field {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0 5px 0;
+  width: 530px;
+}
+
+label {
+  text-align: right;
+   width: 120px;
+}
+
+.input-field {
+  width: 400px;
+}
+
+.input-button {
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  height: 30px;
+  margin-top: 10px;
+  width: 100px;
+}
+.input-button:hover{
+    background-color: red;
+  }
+
+body > img {
+  margin: 0 10px;
+}
+
+
+
+.catalogContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.movieContainer {
+  margin: 5px;
+  max-width: 30%;
+}
+
+img {
+  max-height: 250px;
+}
+
+img:hover{
+  transform: scale(1.2);
+}
+
+p {
+  color: #fff;
+  width: 200px;
+}
